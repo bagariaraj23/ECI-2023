@@ -13,6 +13,7 @@ import authenticateUser from "./middleware/authentication.js"
 
 //Routers
 import authRouter from "./routes/auth.js";
+import userRouter from "./routes/userRoutes.js";
 
 // import userRoutes from "./routes/userRoutes.js";
 // import sloganRoutes from "./routes/sloganRoutes.js";
@@ -31,6 +32,7 @@ app.use(cookieParser());
 
 //routes
 app.use("/api/v1/auth", authRouter);
+app.use('/api/v1/user', userRouter)
 
 // app.use("/api/users", userRoutes);
 // app.use("/api/slogans", sloganRoutes);
