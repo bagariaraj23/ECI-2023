@@ -18,7 +18,7 @@ const Card2 = () => {
           </div>
 
           <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link text-decoration-none">
+            <a href="/colab" class="ag-courses-item_link text-decoration-none">
               <div class="ag-courses-item_bg"></div>
 
               <div class="ag-courses-item_title">Collaborations</div>
@@ -54,7 +54,7 @@ const Card2 = () => {
           </div>
 
           <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link text-decoration-none">
+            <a href="/leaderboard" class="ag-courses-item_link text-decoration-none">
               <div class="ag-courses-item_bg"></div>
 
               <div class="ag-courses-item_title">Leaderboard</div>
@@ -66,7 +66,7 @@ const Card2 = () => {
           </div>
 
           <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link text-decoration-none">
+            <a href="/candichat" class="ag-courses-item_link text-decoration-none">
               <div class="ag-courses-item_bg"></div>
 
               <div class="ag-courses-item_title">Candi-Chat</div>
