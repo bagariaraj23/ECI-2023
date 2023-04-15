@@ -7,6 +7,7 @@ const Forgotpassword = () => {
   return (
     <>
       <Meta title={"Forgot Password"} />
+
       <Container class1="login-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -19,14 +20,14 @@ const Forgotpassword = () => {
                 <CustomInput type="OTP" name="OTP" placeholder="OTP" />
                 <div>
                   <div className="mt-3 d-flex justify-content-center flex-column gap-15 align-items-center">
-                  <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
-                    <button className="button border-0" type="submit">
-                      Re-Send OTP
-                    </button>
-                    <button className="button border-0" type="submit">
-                      Submit
-                    </button>
-                  </div>
+                    <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
+                      <button className="button border-0" type="submit">
+                        <Link to="/login" style={{color:"#ffffff"}} className="text-decoration-none">Re-Send OTP</Link>
+                      </button>
+                      <button className="button border-0" type="submit">
+                        Submit
+                      </button>
+                    </div>
                     <Link to="/login">Cancel</Link>
                   </div>
                 </div>
