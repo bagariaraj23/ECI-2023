@@ -12,6 +12,8 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Myticket from "./pages/Myticket";
 import Leaderboard from "./pages/Leaderboard";
+import Slogan from "./pages/Slogan";
+
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
           <Route path="otp" element={<Forgotpassword />} />
           <Route path="helpdesk" element={<Myticket />} />
           <Route path="leaderboard" element={<Leaderboard />} />
+          <Route path="feedback" element={<Slogan />} />
         </Route>
       </Routes>
     </BrowserRouter>

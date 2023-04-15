@@ -1,17 +1,13 @@
 import User from "../models/userSchema.js";
 import { StatusCodes } from "http-status-codes";
-import BadRequestError from "../errors/bad-request.js";
-import UnauthenticatedError from "../errors/unauthenticated.js";
 
-const register = async (req, res) => {
-    console.log("login");
+
+export const register = async (req, res) => {
+    // res.json(req.body);
+    const user = await User.create({...req.body});
+    res.status(StatusCodes.CREATED).json(req.body);
 };
 
-const login = async (req, res) => {
-    console.log("register");
-};
-
-export default {
-    login,
-    register,
+export const login = async (req, res) => {
+    res.json(req.body);
 };

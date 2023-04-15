@@ -12,7 +12,8 @@ import connectDB from "./db/connect.js";
 import authenticateUser from "./middleware/authentication.js"
 
 //Routers
-import authRouter from "./routes/auth.js";
+import userRouter from "./routes/userRoutes.js";
+import reviewRouter from "./routes/reviewRoutes.js";
 
 // import userRoutes from "./routes/userRoutes.js";
 // import sloganRoutes from "./routes/sloganRoutes.js";
@@ -30,7 +31,8 @@ app.use(cors());
 app.use(cookieParser());
 
 //routes
-app.use("/api/v1/auth", authRouter);
+app.use('/api/v1/user', userRouter)
+app.use('/api/v1/user', reviewRouter)
 
 // app.use("/api/users", userRoutes);
 // app.use("/api/slogans", sloganRoutes);
