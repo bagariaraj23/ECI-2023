@@ -12,18 +12,25 @@ export const Foooter = () => {
         <Row className="align-items-center">
           <MailchimpForm />
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+            {/* <img src={logo} alt="Logo" /> */}
+            <h1>Election Commision of India</h1>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/company/election-commission-of-india/?originalSubdomain=in">
+                <img src={navIcon1} alt="Icon" />
+              </a>
+              <a href="https://www.facebook.com/ECI/">
+                <img src={navIcon2} alt="Icon" />
+              </a>
+              <a href="https://www.instagram.com/ecisveep/?hl=en">
+                <img src={navIcon3} alt="Icon" />
+              </a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
     </foooter>
-  )
-}
+  );
+};

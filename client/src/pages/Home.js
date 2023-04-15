@@ -10,12 +10,14 @@ import { Foooter } from "../components/Foooter";
 import "../App.css";
 import Card from "../components/Card";
 import Card2 from "../components/Card2";
+// import Card3 from "../components/Card3";
 
 const Home = () => {
   return (
     <>
+    {/* <Card3></Card3> */}
       <Banner />
-      <Skills />
+      {/* <Skills /> */}
       <Container class1="-5">
         <Container class1="marque-wrapper py-5">
           <div className="row">
@@ -38,7 +40,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <Card />
+            <Card2 />
           </div>
         </Container>
       </Container>

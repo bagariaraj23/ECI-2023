@@ -43,13 +43,13 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link
-              href="/myticket"
+              href="/helpdesk"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("home")}
             >
-              Generate Ticket
+              Help Desk
             </Nav.Link>
             <Nav.Link
               href="/rewards"
@@ -58,7 +58,7 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("rewards")}
             >
-              Rewards
+              Candi-Chat
             </Nav.Link>
             <Nav.Link
               href="/contact"
@@ -76,7 +76,7 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
-              Submit Slogans
+              Feedback
             </Nav.Link>
           </Nav>
           <span className="navbar-text">

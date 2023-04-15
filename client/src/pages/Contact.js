@@ -3,11 +3,13 @@ import Meta from "../components/Meta";
 import { AiOutlineHome, AiOutlineMail } from "react-icons/ai";
 import { BiPhoneCall, BiInfoCircle } from "react-icons/bi";
 import Container from "../components/Container";
+import Card4 from "../components/Card4";
 
 const Contact = () => {
   return (
     <>
       <Meta title={"Contact Us"} />
+      <Card4></Card4>
       <Container class1="contact-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
