@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import "./feedback.css";
+import "./feed.css";
 
 const Slogan = () => {
     const [name, setName] = useState('');
@@ -20,14 +20,14 @@ const Slogan = () => {
     };
 
     return (
-        <Container className="my-5">
+        <Container className="my-51 ">
             <Row>
                 <Col xs={12} md={8} lg={11}>
                     <h1 className='f1'>Feedback Form</h1>
                     <br></br>
-                    <Form onSubmit={handleSubmit}>
+                    <Form onSubmit={handleSubmit} className='fed1'>
                         <Form.Group controlId="formBasicName" className="mb-3">
-                            <Form.Label md={3} className='label'>Name</Form.Label>
+                            <Form.Label md={3} className="fed2">Name</Form.Label>
                             <Form.Control
                                 type="text"
                                 placeholder="Enter name"
@@ -38,7 +38,7 @@ const Slogan = () => {
                         </Form.Group>
 
                         <Form.Group controlId="formBasicVoterId" className="mb-3">
-                            <Form.Label md={3} className='label'>Voter ID No.</Form.Label>
+                            <Form.Label md={3} className="fed2">Voter ID No.</Form.Label>
                             <Form.Control
                                 type="text"
                                 placeholder="Enter Voter ID No."
@@ -49,7 +49,7 @@ const Slogan = () => {
                         </Form.Group>
 
                         <Form.Group controlId="formBasicQuestion1" className="mb-3">
-                            <Form.Label md={3} className='label'>How did the student perform?</Form.Label>
+                            <Form.Label md={3} className="fed2">How did the student perform?</Form.Label>
                             <Form.Control
                                 type="text"
                                 placeholder="Enter answer"
@@ -60,7 +60,7 @@ const Slogan = () => {
                         </Form.Group>
 
                         <Form.Group controlId="formBasicQuestion2" className="mb-3">
-                            <Form.Label md={3} className='label'>How was your voting experience?</Form.Label>
+                            <Form.Label md={3} className="fed2">How was your voting experience?</Form.Label>
                             <Form.Control
                                 type="text"
                                 placeholder="Enter answer"
@@ -71,7 +71,17 @@ const Slogan = () => {
                         </Form.Group>
 
                         <Form.Group controlId="formBasicQuestion3" className="mb-3">
-                            <Form.Label md={3} className='label'>Do you like to share any voting experience from polling booth?</Form.Label>
+                            <Form.Label md={3} className="fed2">Do you like to share any stories/incidents from polling booth?</Form.Label>
+                            <Form.Control
+                                type="text"
+                                placeholder="Enter answer"
+                                value={question3}
+                                onChange={(e) => setQuestion3(e.target.value)}
+                                required
+                            />
+                        </Form.Group>
+                        <Form.Group controlId="formBasicQuestion3" className="mb-3">
+                            <Form.Label md={3} className="fed2">Do you like to share any pictures?</Form.Label>
                             <Form.Control
                                 type="text"
                                 placeholder="Enter answer"
@@ -81,7 +91,7 @@ const Slogan = () => {
                             />
                         </Form.Group>
 
-                        <Button variant="primary" type="submit">
+                        <Button variant="primary" type="submit" style={{backgroundColor:"#ff0080",marginTop:25,border:"none"}}>
                             Submit
                         </Button>
                     </Form>
