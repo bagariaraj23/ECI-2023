@@ -52,7 +52,7 @@ export const NavBar = () => {
               Help Desk
             </Nav.Link>
             <Nav.Link
-              href="/rewards"
+              href="/candichat"
               className={
                 activeLink === "rewards" ? "active navbar-link" : "navbar-link"
               }
@@ -61,7 +61,7 @@ export const NavBar = () => {
               Candi-Chat
             </Nav.Link>
             <Nav.Link
-              href="/contact"
+              href="/colab"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
