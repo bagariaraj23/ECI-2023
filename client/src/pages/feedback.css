@@ -1,0 +1,39 @@
+/* Center the form horizontally */
+.my-5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  /* Add padding to the form */
+  form {
+    padding: 2rem;
+    /* background: linear-gradient(to right,#373B44, #4286f4 ); */
+    background: linear-gradient(to right,#70e1f5, #ffd194 );
+    /* background-color:#bfa181  ; */
+    border: 1px solid#6dd5ed ;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 100px;
+  }
+  h1{
+    margin-top: 75px;
+    text-align: center;
+  }
+  
+  /* Style the form submit button */
+  button[type="submit"] {
+    margin-top: 25px;
+    background-color: #ff0080;
+    border: none;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #009FFF;
+  }
+
+  .label{
+    color:black;
+  }
+
+  /* , #2193b0 */
