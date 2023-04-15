@@ -8,6 +8,7 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { Link } from "react-router-dom";
 import "../App.css";
+import Card2 from "./Card2";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -99,107 +100,23 @@ export const Skills = () => {
                                   <Row className="p-5 align-items-center d-flex justify-content-around">
                                     <div className="col-7">
                                       <div className="main-banner position-relative ">
-                                        <img
-                                          src={img2}
-                                          className="img-fluid rounded-3"
-                                          alt="main banner"
-                                        />
-                                        <div className="main-banner-content position-absolute">
-                                          <h4>SUPERCHARGED FOR PROS.</h4>
-                                          <h5>iPad S13+ Pro.</h5>
-                                          <p>From $999.00 or $41.62/mo.</p>
-                                          <Link className="button">
-                                            BUY NOW
-                                          </Link>
-                                        </div>
+                                        <Card2></Card2>
                                       </div>
                                     </div>
                                   </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                  <Row className="p-5 align-items-center d-flex justify-content-around">
-                                    <div className="col-7">
+                                  <Row className="p-5 align-items-center d-flex justify-content-center">
                                       <div className="main-banner position-relative ">
-                                        <img
-                                          src="images/main-banner-1.jpg"
-                                          className="img-fluid rounded-3"
-                                          alt="main banner"
-                                        />
-                                        <div className="main-banner-content position-absolute">
-                                          <h4>SUPERCHARGED FOR PROS.</h4>
-                                          <h5>iPad S13+ Pro.</h5>
-                                          <p>From $999.00 or $41.62/mo.</p>
-                                          <Link className="button">
-                                            BUY NOW
-                                          </Link>
-                                        </div>
+                                        <Card2></Card2>
                                       </div>
-                                    </div>
                                   </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
                                   <Container class1="famous-wrapper py-5 home-wrapper-2">
                                     <div className="row align-items-center d-flex justify-content-center">
-                                      <div className="col-3">
-                                        <div className="famous-card position-relative">
-                                          <img
-                                            src="images/famous-2.webp"
-                                            className="img-fluid"
-                                            alt="famous"
-                                          />
-                                          <div className="famous-content position-absolute">
-                                            <h5 className="text-dark">
-                                              Studio Display
-                                            </h5>
-                                            <h6 className="text-dark">
-                                              600 nits of brightness.
-                                            </h6>
-                                            <p className="text-dark">
-                                              27-inch 5K Retina display
-                                            </p>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div className="col-3">
-                                        <div className="famous-card position-relative">
-                                          <img
-                                            src="images/famous-2.webp"
-                                            className="img-fluid"
-                                            alt="famous"
-                                          />
-                                          <div className="famous-content position-absolute">
-                                            <h5 className="text-dark">
-                                              Studio Display
-                                            </h5>
-                                            <h6 className="text-dark">
-                                              600 nits of brightness.
-                                            </h6>
-                                            <p className="text-dark">
-                                              27-inch 5K Retina display
-                                            </p>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div className="col-3">
-                                        <div className="famous-card position-relative">
-                                          <img
-                                            src="images/famous-3.webp"
-                                            className="img-fluid"
-                                            alt="famous"
-                                          />
-                                          <div className="famous-content position-absolute">
-                                            <h5 className="text-dark">
-                                              smartphones
-                                            </h5>
-                                            <h6 className="text-dark">
-                                              Smartphone 13 Pro.
-                                            </h6>
-                                            <p className="text-dark">
-                                              Now in Green. From $999.00 or
-                                              $41.62/mo. for 24 mo. Footnote*
-                                            </p>
-                                          </div>
-                                        </div>
+                                      <div className="main-banner position-relative ">
+                                        <Card2></Card2>
                                       </div>
                                     </div>
                                   </Container>
