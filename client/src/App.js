@@ -25,7 +25,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="otp" element={<Forgotpassword />} />
-          <Route path="myticket" element={<Myticket />} />
+          <Route path="helpdesk" element={<Myticket />} />
         </Route>
       </Routes>
     </BrowserRouter>
