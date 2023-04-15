@@ -8,6 +8,8 @@ import { Skills } from "../components/Skills";
 import { Contact } from "../components/Contact";
 import { Foooter } from "../components/Foooter";
 import "../App.css";
+import Card from "../components/Card";
+import Card2 from "../components/Card2";
 
 const Home = () => {
   return (
@@ -30,24 +32,13 @@ const Home = () => {
         </Container>
 
         <Container class1="Blog-wrapper py-5">
-          <div className="row">
+          <div className="row  text-align-center justify-content-center">
             <div className="col-12">
               <h3 className="section-heading">Know More About Voting!!</h3>
             </div>
           </div>
-          <div className="row">
-            <div className="col-3">
-              <BlogCard />
-            </div>
-            <div className="col-3">
-              <BlogCard />
-            </div>
-            <div className="col-3">
-              <BlogCard />
-            </div>
-            <div className="col-3">
-              <BlogCard />
-            </div>
+          <div>
+            <Card />
           </div>
         </Container>
       </Container>

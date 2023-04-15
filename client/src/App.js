@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Forgotpassword from "./pages/Forgotpassword";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Myticket from "./pages/Myticket";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="otp" element={<Forgotpassword />} />
+          <Route path="myticket" element={<Myticket />} />
         </Route>
       </Routes>
     </BrowserRouter>

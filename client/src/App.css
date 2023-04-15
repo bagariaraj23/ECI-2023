@@ -14,6 +14,18 @@
   --color-777777: #777777;
   --color-1c1c1b: #1c1c1b;
 }
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .section-heading {
   font-size: 26px;
   line-height: 32px;
@@ -24,6 +36,10 @@
   background-color: white;
   box-shadow: 0 0 10px #0000001a;
   padding: 15px;
+}
+.cards_item {
+  display: flex;
+  padding: 1rem;
 }
 body {
   font-family: "Rubik", sans-serif;
