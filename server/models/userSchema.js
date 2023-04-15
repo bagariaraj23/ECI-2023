@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
   },
   name: {
     type: String,
-    // required: [true, "Please provide name"],
+    required: [true, "Please provide name"],
     maxlength: 50,
     minlength: 3,
   },
@@ -28,20 +28,15 @@ const userSchema = new mongoose.Schema({
     ],
     unique: true,
   },
-  // password: {
-  //   type: String,
-  //   required: [true, "Please provide password"],
-  //   minlength: 6,
-  // },
   aadhaar: {
     type: String,
-    // required: [true, "Please provide aadhaar"],
+    required: [true, "Please provide aadhaar"],
     minlength: 12,
     match: [/^[0-9]{12}$/, "Please Provide a valid aadhaar Number"],
   },
   voterId: {
     type: String,
-    // required: [true, "Please provide voterId"],
+    required: [true, "Please provide voterId"],
     match: [/^[a-zA-Z]{3}[0-9]{7}$/, "Please Provide a valid voterId"],
   },
 }, { timestamps: true });
@@ -49,7 +44,6 @@ const userSchema = new mongoose.Schema({
 userSchema.methods.generateJWT = function () {
   const token = jwt.sign({
     _id: this._id,
-    // isAdmin: this.isAdmin,
     number: this.number,
   }, process.env.JWT_SECRET_KEY, { expiresIn: "30d" });
   return token;
