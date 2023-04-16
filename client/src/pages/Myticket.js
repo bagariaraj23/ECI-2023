@@ -7,7 +7,7 @@ const Myticket = () => {
       <section class="dark">
         <div class="container py-4">
           <h1 class="h1 text-center" id="pageHeaderTitle">
-           Help Desk
+            Help Desk
           </h1>
 
           <article class="postcard dark blue">
@@ -20,11 +20,19 @@ const Myticket = () => {
             </a>
             <div class="postcard__text">
               <h1 class="postcard__title blue">
-                <a href="#">Voter Registration (Online)</a>
+                <a
+                  href="https://voterportal.eci.gov.in/"
+                  class="text-decoration-none"
+                >
+                  Voter Registration (Online)
+                </a>
               </h1>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-..             You can enroll as a voter if you are an Indian citizen and your age is 18 yrs or above and also you are an ordinarily resident of the part/polling area of the constituency where you want to be enroll.
+                .. You can enroll as a voter if you are an Indian citizen and
+                your age is 18 yrs or above and also you are an ordinarily
+                resident of the part/polling area of the constituency where you
+                want to be enroll.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play blue">
@@ -50,7 +58,9 @@ const Myticket = () => {
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              The portal allows citizens to search for their name in the Voter List by providing their details like name, age, gender, and constituency.
+                The portal allows citizens to search for their name in the Voter
+                List by providing their details like name, age, gender, and
+                constituency.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play red">
@@ -76,7 +86,8 @@ const Myticket = () => {
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              Citizens can download the Electoral Roll in PDF format for their constituency.
+                Citizens can download the Electoral Roll in PDF format for their
+                constituency.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play green">
@@ -102,7 +113,11 @@ const Myticket = () => {
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              The Election Commission of India allows certain categories of voters, such as senior citizens, persons with disabilities, and government employees, to cast their vote through a postal ballot. The voter has to apply for the postal ballot facility in advance.
+                The Election Commission of India allows certain categories of
+                voters, such as senior citizens, persons with disabilities, and
+                government employees, to cast their vote through a postal
+                ballot. The voter has to apply for the postal ballot facility in
+                advance.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play yellow">
@@ -128,7 +143,11 @@ const Myticket = () => {
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              The Election Commission of India has a dedicated portal for registering complaints and grievances related to the electoral process. The portal allows citizens to report any violation of the Model Code of Conduct, illegal practices, or any other electoral malpractice.
+                The Election Commission of India has a dedicated portal for
+                registering complaints and grievances related to the electoral
+                process. The portal allows citizens to report any violation of
+                the Model Code of Conduct, illegal practices, or any other
+                electoral malpractice.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play green">
@@ -139,15 +158,14 @@ const Myticket = () => {
               </ul>
             </div>
           </article>
-        </div>
-      </section>
+          {/* </div> */}
+          {/* </section> */}
 
-      <section class="light">
-        <div class="container py-2">
-          <div class="h1 text-center text-dark" id="pageHeaderTitle">
-          </div>
+          {/* <section class="dark"> */}
+          {/* <div class="container py-2"> */}
+          <div class="h1 text-center" id="pageHeaderTitle"></div>
 
-          <article class="postcard light red">
+          <article class="postcard dark red">
             <a class="postcard__img_link" href="#">
               <img
                 class="postcard__img"
@@ -155,14 +173,18 @@ const Myticket = () => {
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text t-dark">
+            <div class="postcard__text">
               <h1 class="postcard__title red">
                 <a href="#">Voter Education</a>
               </h1>
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              The Election Commission of India conducts voter education programs to increase awareness about the electoral process among citizens. The voter education programs aim to encourage eligible voters to participate in the electoral process and exercise their right to vote.
+                The Election Commission of India conducts voter education
+                programs to increase awareness about the electoral process among
+                citizens. The voter education programs aim to encourage eligible
+                voters to participate in the electoral process and exercise
+                their right to vote.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play red">
@@ -173,7 +195,7 @@ const Myticket = () => {
               </ul>
             </div>
           </article>
-          <article class="postcard light blue">
+          <article class="postcard  blue">
             <a class="postcard__img_link" href="#">
               <img
                 class="postcard__img"
@@ -181,14 +203,20 @@ const Myticket = () => {
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text t-dark">
+            <div class="postcard__text ">
               <h1 class="postcard__title blue">
                 <a href="#">Screen Reader Access</a>
               </h1>
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              The Screen Reader Access service provided by the ECI enables visually impaired users to access information related to the electoral process such as Voter Registration, Voter ID Card status, Polling Station location, Electoral Roll PDF, and other related services through a speech synthesizer.. This service helps in ensuring that visually impaired citizens can participate in the electoral process with ease.
+                The Screen Reader Access service provided by the ECI enables
+                visually impaired users to access information related to the
+                electoral process such as Voter Registration, Voter ID Card
+                status, Polling Station location, Electoral Roll PDF, and other
+                related services through a speech synthesizer.. This service
+                helps in ensuring that visually impaired citizens can
+                participate in the electoral process with ease.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play blue">
@@ -199,7 +227,7 @@ const Myticket = () => {
               </ul>
             </div>
           </article>
-          <article class="postcard light red">
+          <article class="postcard  red">
             <a class="postcard__img_link" href="#">
               <img
                 class="postcard__img"
@@ -207,18 +235,24 @@ const Myticket = () => {
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text t-dark">
+            <div class="postcard__text ">
               <h1 class="postcard__title red">
                 <a href="#">Observer Portal</a>
               </h1>
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              The Observer Portal is an online platform provided by the Election Commission of India (ECI) to assist election observers in their duties during the electoral process. Election observers are appointed by the ECI to monitor and ensure free and fair elections.
-
-              <br></br>
-
-The Observer Portal provides election observers with real-time access to information related to the electoral process. It enables observers to submit their reports, observations, and feedback through the portal. The portal also allows observers to upload photos and videos related to the electoral process.
+                The Observer Portal is an online platform provided by the
+                Election Commission of India (ECI) to assist election observers
+                in their duties during the electoral process. Election observers
+                are appointed by the ECI to monitor and ensure free and fair
+                elections.
+                <br></br>
+                The Observer Portal provides election observers with real-time
+                access to information related to the electoral process. It
+                enables observers to submit their reports, observations, and
+                feedback through the portal. The portal also allows observers to
+                upload photos and videos related to the electoral process.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play red">
@@ -229,7 +263,7 @@ The Observer Portal provides election observers with real-time access to informa
               </ul>
             </div>
           </article>
-          <article class="postcard light green">
+          <article class="postcard  green">
             <a class="postcard__img_link" href="#">
               <img
                 class="postcard__img"
@@ -237,18 +271,25 @@ The Observer Portal provides election observers with real-time access to informa
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text t-dark">
+            <div class="postcard__text ">
               <h1 class="postcard__title green">
                 <a href="#">CANDIDATE AFFIDAVIT MANAGEMENT</a>
               </h1>
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              The Candidate Affidavit Management System is an online platform provided by the Election Commission of India (ECI) to manage the affidavits filed by candidates contesting elections. The affidavits contain details of the candidates' personal assets, liabilities, educational qualifications, criminal records, and other important information.
-
-<br></br>
-
-The Candidate Affidavit Management System allows candidates to file their affidavits online, and the system verifies the information provided by them. The system also makes the affidavits available to the public, enabling citizens to view and access the information provided by the candidates.
+                The Candidate Affidavit Management System is an online platform
+                provided by the Election Commission of India (ECI) to manage the
+                affidavits filed by candidates contesting elections. The
+                affidavits contain details of the candidates' personal assets,
+                liabilities, educational qualifications, criminal records, and
+                other important information.
+                <br></br>
+                The Candidate Affidavit Management System allows candidates to
+                file their affidavits online, and the system verifies the
+                information provided by them. The system also makes the
+                affidavits available to the public, enabling citizens to view
+                and access the information provided by the candidates.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play green">
@@ -259,7 +300,7 @@ The Candidate Affidavit Management System allows candidates to file their affida
               </ul>
             </div>
           </article>
-          <article class="postcard light yellow">
+          <article class="postcard  yellow">
             <a class="postcard__img_link" href="#">
               <img
                 class="postcard__img"
@@ -267,18 +308,20 @@ The Candidate Affidavit Management System allows candidates to file their affida
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text t-dark">
+            <div class="postcard__text ">
               <h1 class="postcard__title yellow">
                 <a href="#">Media and Publication</a>
               </h1>
               <div class="postcard__subtitle small"></div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              The Election Commission of India (ECI) provides various media and publication services to disseminate information related to the electoral process. These services are aimed at ensuring that citizens are informed and aware of the electoral process and their rights as voters.
-
-<br></br>
-
-They include Press Releases,Audio and Visual Content,etc.
+                The Election Commission of India (ECI) provides various media
+                and publication services to disseminate information related to
+                the electoral process. These services are aimed at ensuring that
+                citizens are informed and aware of the electoral process and
+                their rights as voters.
+                <br></br>
+                They include Press Releases,Audio and Visual Content,etc.
               </div>
               <ul class="postcard__tagbox">
                 <li class="tag__item play yellow">

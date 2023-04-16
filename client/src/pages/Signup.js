@@ -14,20 +14,35 @@ const Signup = () => {
               <h3 className="text-center mb-3">Sign Up</h3>
               <form action="" className="d-flex flex-column gap-15">
                 <CustomInput
-                  type="Voter ID"
+                  type="text"
+                  name="Name"
+                  placeholder="Name"
+                />
+                <CustomInput
+                  type="email"
+                  name="Email"
+                  placeholder="Email"
+                />
+                <CustomInput
+                  type="number"
+                  name="Aadhar"
+                  placeholder="Aadhar No."
+                />
+                <CustomInput
+                  type="text"
                   name="Voter ID"
                   placeholder="Voter ID No."
                 />
                 <CustomInput
-                  type="Aadhar"
-                  name="Aadhar"
-                  placeholder="Aadhar No."
+                  type="number"
+                  name="Phone"
+                  placeholder="Phone No."
                 />
                 <div>
                   <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
                     <button className="button border-0">
                       <Link
-                        to="/otp"
+                        to="/pass"
                         style={{ color: "#ffffff" }}
                         className="text-decoration-none"
                       >

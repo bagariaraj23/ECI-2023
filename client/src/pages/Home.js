@@ -15,7 +15,7 @@ import Card2 from "../components/Card2";
 const Home = () => {
   return (
     <>
-    {/* <Card3></Card3> */}
+      {/* <Card3></Card3> */}
       <Banner />
       {/* <Skills /> */}
       <Container class1="-5">
@@ -24,9 +24,27 @@ const Home = () => {
             <div className="col-12">
               <div className="marquee-inner-wrapper card-wrapper">
                 <Marquee className="d-flex">
-                  <div className="mx-4">NOTICE: ELECTIONS ARE ONNNNN!!</div>
-                  <div className="mx-4">NOTICE: ELECTIONS ARE ONNNNN!!</div>
-                  <div className="mx-4">NOTICE: ELECTIONS ARE ONNNNN!!</div>
+                  <div className="mx-4">
+                    <span style={{color:"red"}}>NOTICE:</span> ELECTIONS ARE ONNNNN!!
+                  </div>
+                  <div className="mx-4">
+                    <span style={{color:"red"}}>NOTICE:</span> ELECTIONS ARE ONNNNN!!
+                  </div>
+                  <div className="mx-4">
+                    <span style={{color:"red"}}>NOTICE:</span> ELECTIONS ARE ONNNNN!!
+                  </div>
+                  <div className="mx-4">
+                    <span style={{color:"red"}}>NOTICE:</span> ELECTIONS ARE ONNNNN!!
+                  </div>
+                  <div className="mx-4">
+                    <span style={{color:"red"}}>NOTICE:</span> ELECTIONS ARE ONNNNN!!
+                  </div>
+                  <div className="mx-4">
+                    <span style={{color:"red"}}>NOTICE:</span> ELECTIONS ARE ONNNNN!!
+                  </div>
+                  <div className="mx-4">
+                    <span style={{color:"red"}}>NOTICE:</span> ELECTIONS ARE ONNNNN!!
+                  </div>
                 </Marquee>
               </div>
             </div>

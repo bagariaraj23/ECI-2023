@@ -15,9 +15,9 @@ const Login = () => {
               <h3 className="text-center mb-3">Login</h3>
               <form action="" className="d-flex flex-column gap-15">
                 <CustomInput
-                  type="voterid"
-                  name="voterid"
-                  placeholder="Voter ID No."
+                  type="number"
+                  name="Phone"
+                  placeholder="Phone No."
                 />
                 {/* <CustomInput
                   type="Aadhaar"
@@ -33,11 +33,18 @@ const Login = () => {
                   {/* <Link to="/signup">Forgot Password?</Link> */}
 
                   <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
-                    <button className="button border-0" type="submit">
-                      Login
-                    </button>
-                    <Link to="/signup" className="button signup text-decoration-none">
+                    <Link to="/pass">
+                      <button className="button border-0" type="submit">
+                        Login
+                      </button>
+                    </Link>
+                    <Link
+                      to="/signup"
+                      className="button signup text-decoration-none"
+                    >
+                      {/* <button className="button border-0" type="submit"> */}
                       SignUp
+                      {/* </button> */}
                     </Link>
                   </div>
                 </div>
