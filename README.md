@@ -20,7 +20,7 @@ We have Also introduced a collaboration page, Mock Parliamentary sessions to be 
 
 Clone the repository using the link : 
 ```
-https://github.com/bagariaraj23/EiC-2023.git
+git clone https://github.com/bagariaraj23/EiC-2023.git
 ```
 
 ### Open a terminal and setup the client as 
