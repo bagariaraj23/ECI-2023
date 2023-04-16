@@ -2,11 +2,11 @@ import { Schema, model } from "mongoose";
 
 export default model("Otp", new Schema({
     otp: {
-        type: String,
+        type: Number,
         required: true,
     },
     number: {
-        type: String,
+        type: Number,
         required: true,
     },
     createdAt: {

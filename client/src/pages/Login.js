@@ -3,8 +3,21 @@ import { Link } from "react-router-dom";
 import Meta from "../components/Meta";
 import Container from "../components/Container";
 import CustomInput from "../components/CustomInput";
+import { useState } from "react";
+import axios from "axios";
 
 const Login = () => {
+  const [number, setNumber] = useState("");
+  const handlelogin = async (e) => {
+     console.log(number);
+    try{
+      const res = await axios.post("http://localhost:8000/api/v1/user/login",{number});
+    }
+    catch(err){
+    console.log(err);
+    }
+
+  }
   return (
     <>
       <Meta title={"Login"} />
@@ -15,9 +28,10 @@ const Login = () => {
               <h3 className="text-center mb-3">Login</h3>
               <form action="" className="d-flex flex-column gap-15">
                 <CustomInput
-                  type="number"
-                  name="Phone"
-                  placeholder="Phone No."
+                  type="voterid"
+                  name="voterId"
+                  placeholder="Voter ID No."
+                  onChange={(e) => setNumber(e.target.value)}
                 />
                 {/* <CustomInput
                   type="Aadhaar"
