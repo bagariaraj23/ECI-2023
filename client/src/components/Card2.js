@@ -116,7 +116,7 @@ const Card2 = () => {
           </div>
           <div class="ag-courses_item">
             <a
-              href="https://eci.gov.in/contact-us/contact-us/"
+              href="conti"
               class="ag-courses-item_link text-decoration-none"
             >
               <div class="ag-courses-item_bg"></div>

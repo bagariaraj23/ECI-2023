@@ -71,23 +71,22 @@ const School = () => {
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <AiOutlineHome className="fs-5" />
                       <address className="mb-0">
-                        Hno:277 , Near village chopal , Mandaura, Sonipat,
-                        Haryana
+                        Nirvachan Sadan, Ashoka Road, New Delhi 110001
                       </address>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <BiPhoneCall className="fs-5" />
-                      <a href="tel:+91 8264954234">+91 8264954234</a>
+                      <a href="tel: 23052220, 23052221"> 23052220, 23052221</a>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <AiOutlineMail className="fs-5" />
                       <a href="mailto:navdeepdahiya753@gmail.com">
-                        navdeepdahiya753@gmail.com
+                       complaints@eci.gov.in
                       </a>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <BiInfoCircle className="fs-5" />
-                      <p className="mb-0">Monday – Friday 10 AM – 8 PM</p>
+                      <p className="mb-0">For general enquiries: 1950</p>
                     </li>
                   </ul>
                 </div>
