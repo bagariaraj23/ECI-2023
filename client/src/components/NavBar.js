@@ -28,14 +28,12 @@ export const NavBar = () => {
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : "Notscrolled"}>
       <Container>
-        <Navbar.Brand
-          href="/"
-        >
+        <Navbar.Brand href="/">
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
-          <h1>
-            <span>ECI.</span>
-          </h1>
+        <h1>
+          <span>ECI.</span>
+        </h1>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -68,6 +66,15 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink("projects")}
             >
               Collaborations
+            </Nav.Link>
+            <Nav.Link
+              href="/art"
+              className={
+                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("projects")}
+            >
+              Art Gallery
             </Nav.Link>
             <Nav.Link
               href="/feedback"

@@ -116,7 +116,7 @@ const Card2 = () => {
           </div>
           <div class="ag-courses_item">
             <a
-              href="conti"
+              href="contactus"
               class="ag-courses-item_link text-decoration-none"
             >
               <div class="ag-courses-item_bg"></div>

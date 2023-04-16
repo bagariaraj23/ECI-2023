@@ -10,6 +10,7 @@ import { Foooter } from "../components/Foooter";
 import "../App.css";
 import Card from "../components/Card";
 import Card2 from "../components/Card2";
+import Footer from "../components/Footer";
 // import Card3 from "../components/Card3";
 
 const Home = () => {
@@ -64,6 +65,7 @@ const Home = () => {
       </Container>
       <Contact />
       <Foooter />
+      <Footer></Footer>
     </>
   );
 };

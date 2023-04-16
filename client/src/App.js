@@ -13,8 +13,10 @@ import Signup from "./pages/Signup";
 import Myticket from "./pages/Myticket";
 import Leaderboard from "./pages/Leaderboard";
 import Slogan from "./pages/Slogan";
+import Gallery from "./pages/Gallery";
 import Ambassador from "./pages/Ambassador";
 import School from "./pages/School";
+import ContactUs from "./pages/ContactUs";
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
           <Route path="feedback" element={<Slogan />} />
           <Route path="ambassador" element={<Ambassador />} />
           <Route path="school" element={<School />} />
+          <Route path="contactus" element={<ContactUs />} />
+          <Route path="art" element={<Gallery />} />
         </Route>
       </Routes>
     </BrowserRouter>
