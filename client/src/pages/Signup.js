@@ -38,32 +38,38 @@ const Signup = () => {
               <h3 className="text-center mb-3">Sign Up</h3>
               <form action="" className="d-flex flex-column gap-15">
                 <CustomInput
-                  type="Voter ID"
-                  name="voterId"
+                  type="text"
+                  name="Name"
+                  placeholder="Name"
+                />
+                <CustomInput
+                  type="email"
+                  name="Email"
+                  placeholder="Email"
+                />
+                <CustomInput
+                  type="number"
+                  name="Aadhar"
+                  placeholder="Aadhar No."
+                />
+                <CustomInput
+                  type="text"
+                  name="Voter ID"
                   placeholder="Voter ID No."
                   onChange={(e) =>
                     setVoterId(e.target.value)
                   }
                 />
                 <CustomInput
-                  type="Aadhar"
-                  name="aadhaar"
-                  placeholder="Aadhar No."
-                  onChange={(e) => setAadhaar(e.target.value)}
-                />
-                <CustomInput
-                  type="phone"
-                  name="number"
+                  type="number"
+                  name="Phone"
                   placeholder="Phone No."
-                  onChange={(e) =>
-                    setNumber(e.target.value)
-                  }
                 />
                 <div>
                   <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
                     <button className="button border-0">
                       <Link
-                        to="/otp"
+                        to="/pass"
                         style={{ color: "#ffffff" }}
                         className="text-decoration-none"
                         onClick={()=>handleSignup(voterId,aadhaar,number)}

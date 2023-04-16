@@ -47,11 +47,18 @@ const Login = () => {
                   {/* <Link to="/signup">Forgot Password?</Link> */}
 
                   <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
-                    <button className="button border-0" type="submit" onClick={()=>handlelogin(number)}>
-                      Login
-                    </button>
-                    <Link to="/signup" className="button signup text-decoration-none">
+                    <Link to="/pass">
+                      <button className="button border-0" type="submit">
+                        Login
+                      </button>
+                    </Link>
+                    <Link
+                      to="/signup"
+                      className="button signup text-decoration-none"
+                    >
+                      {/* <button className="button border-0" type="submit"> */}
                       SignUp
+                      {/* </button> */}
                     </Link>
                   </div>
                 </div>
