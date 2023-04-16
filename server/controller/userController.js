@@ -6,10 +6,10 @@ import _ from "lodash";
 import jwt from 'jsonwebtoken';
 import { StatusCodes } from "http-status-codes";
 
-import axios from "axios";
 import otpGenerator from "otp-generator";
 
 export const signUp = async (req, res) => {
+  console.log(req.body)
   const user = await User.findOne({
     number: req.body.number,
   });
@@ -24,16 +24,17 @@ export const signUp = async (req, res) => {
   });
 
   const number = req.body.number;
+  console.log(number);
   console.log(OTP);
 
-  const accountSid = "ACa0a92d0b2dfd8f635ed2a87abecc035d"; // Your Account SID from www.twilio.com/console
-  const authToken = "b313147e29b62b49d9a33d74869ae332"; // Your Auth Token from www.twilio.com/console
+  const accountSid = "AC97e9cd94f5aef654bd9d9ec12d1e9a1a"; // Your Account SID from www.twilio.com/console
+  const authToken = "20b16d4df445ebbcb79ac9acd3cb1800"; // Your Auth Token from www.twilio.com/console
   const client = new twilio(accountSid, authToken);
   client.messages
     .create({
       body: `Your verification OTP is : ${OTP}`,
-      to: number, // Text this number
-      from: "+16205221093", // From a valid Twilio number
+      to: `+91${number}`, // Text this number
+      from: "+16205221663", // From a valid Twilio number
     })
     .then((message) => console.log(message.sid));
 
@@ -66,7 +67,7 @@ export const login = async (req, res) => {
     client.messages
       .create({
         body: `Your verification OTP is : ${OTP}`,
-        to: number, // Text this number
+        to: `+91${number}`, // Text this number
         from: "+16205221093", // From a valid Twilio number
       })
       .then((message) => console.log(message.sid));
