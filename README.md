@@ -49,8 +49,8 @@ The project will go Live in the following url : https://localhost:3000
 ### Know About Voting Machinary
 ![Screenshot from 2023-04-16 10-44-37](https://user-images.githubusercontent.com/72650642/232273073-9fc14fd9-7a7b-464b-8a86-3f88d4f87ec3.png)
 
-### Subscribe to Newsletters
-![Screenshot from 2023-04-16 10-44-47](https://user-images.githubusercontent.com/72650642/232273081-f58e0e19-4799-43f0-93ac-548a7082a04b.png)
+### LeaderBoard
+![image](https://user-images.githubusercontent.com/72650642/232276627-3a318418-cd90-4668-a0b6-7a4700fb0655.png)
 
 ### Feedback Form
 ![Screenshot from 2023-04-16 10-45-14](https://user-images.githubusercontent.com/72650642/232273089-be82332d-ce76-4e95-880e-4d3fa66d6331.png)
@@ -58,12 +58,13 @@ The project will go Live in the following url : https://localhost:3000
 ### Art Gallery
 ![Screenshot from 2023-04-16 10-48-32](https://user-images.githubusercontent.com/72650642/232273096-b1ee862b-2e26-453f-abbc-b8dacf8fa655.png)
 
-
 ### Help Desk
 ![Screenshot from 2023-04-16 10-48-45](https://user-images.githubusercontent.com/72650642/232273117-3b55e4b7-d5f9-4508-b48a-95ee2e9b9ba9.png)
 
-
 ![Screenshot from 2023-04-16 10-48-58](https://user-images.githubusercontent.com/72650642/232273126-9c830f54-3e2e-49e1-b6b5-5f5c45915808.png)
+
+### Subscribe to Newsletters
+![Screenshot from 2023-04-16 10-44-47](https://user-images.githubusercontent.com/72650642/232273081-f58e0e19-4799-43f0-93ac-548a7082a04b.png)
 
 ### Proposed Candi-Chat
 ![Screenshot from 2023-04-16 10-48-39](https://user-images.githubusercontent.com/72650642/232273106-b1541b30-cd07-4815-9edf-1d64261002df.png)
