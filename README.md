@@ -7,7 +7,9 @@ The Election Commission of India is a constitutional body. It was established by
 ## Project Setup:
 
 Clone the repository using the link : 
-
+```
+https://github.com/bagariaraj23/EiC-2023.git
+```
 
 ### Open a terminal and setup the client as 
 Client Setup: 
