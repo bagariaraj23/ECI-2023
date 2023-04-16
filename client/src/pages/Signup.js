@@ -19,7 +19,7 @@ const Signup = () => {
     console.log("clicked");
    
     try{
-    const res = await axios.post("http://localhost:8000/api/v1/user/signup",{voterId, aadhaar, number});
+    const res = await axios.post("http://localhost:8800/api/v1/user/signup",{voterId, aadhaar, number});
     console.log(res);
     }catch(err){
       console.log(err);

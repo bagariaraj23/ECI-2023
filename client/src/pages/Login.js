@@ -4,14 +4,18 @@ import Meta from "../components/Meta";
 import Container from "../components/Container";
 import CustomInput from "../components/CustomInput";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Login = () => {
+  const Navigate = useNavigate();
   const [number, setNumber] = useState("");
   const handlelogin = async (e) => {
      console.log(number);
     try{
-      const res = await axios.post("http://localhost:8000/api/v1/user/login",{number});
+      const res = await axios.post("http://localhost:8800/api/v1/user/login",{number});
+      localStorage.setItem("currentUser",JSON.stringify(res.data));
+      Navigate("/")
     }
     catch(err){
     console.log(err);
@@ -28,7 +32,7 @@ const Login = () => {
               <h3 className="text-center mb-3">Login</h3>
               <form action="" className="d-flex flex-column gap-15">
                 <CustomInput
-                  type="voterid"
+                  type="voterId"
                   name="voterId"
                   placeholder="Voter ID No."
                   onChange={(e) => setNumber(e.target.value)}
