@@ -13,6 +13,8 @@ import Signup from "./pages/Signup";
 import Myticket from "./pages/Myticket";
 import Leaderboard from "./pages/Leaderboard";
 import Slogan from "./pages/Slogan";
+import Ambassador from "./pages/Ambassador";
+import School from "./pages/School";
 
 
 function App() {
@@ -27,10 +29,12 @@ function App() {
           {/* <Route path="Offline-ticket" element={<Checkout />} /> */}
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
-          <Route path="otp" element={<Forgotpassword />} />
+          <Route path="pass" element={<Forgotpassword />} />
           <Route path="helpdesk" element={<Myticket />} />
           <Route path="leaderboard" element={<Leaderboard />} />
           <Route path="feedback" element={<Slogan />} />
+          <Route path="ambassador" element={<Ambassador />} />
+          <Route path="school" element={<School />} />
         </Route>
       </Routes>
     </BrowserRouter>

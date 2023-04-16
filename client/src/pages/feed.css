@@ -22,7 +22,7 @@
   }
   
   /* Style the form submit button */
-  button[type="submit"]  {
+  /* button[type="submit"]  {
     margin-top: 25px;
     background-color: #ff0080;
     border: none;
@@ -30,7 +30,7 @@
   
   button[type="submit"]:hover {
     background-color: #009FFF;
-  }
+  } */
 
   .fed2{
     color:black;
