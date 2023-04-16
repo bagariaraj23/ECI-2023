@@ -20,7 +20,10 @@ export default function Board() {
         borderRadius: "10px",
       }}
     >
-      <h1 className="leaderboard">Leaderboard</h1>
+      <h1 className="leaderboard">
+        Leaderboard <hr />
+        #अपना बूथ सबसे मजबूत!!💪
+      </h1>
 
       {/* <div className="duration">
             <button onClick={handleClick} data-id='7'>7 Days</button>

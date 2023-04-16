@@ -28,7 +28,7 @@ export const Leaderboard = [
     dt: "2022-01-22",
   },
   {
-    name: "WARD 47  || APNA BOOTH SABSE MAJBUT!!💪",
+    name: "WARD 47",
     location: "Jayanagar",
     score: 3,
     img: "https://assets.thehansindia.com/h-upload/feeds/2019/04/12/163300-ink.jpg",
