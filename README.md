@@ -69,3 +69,6 @@ npm start
 ```
 
 The project will go Live in the following url : https://localhost:3000
+
+### [Update] 
+***NOTE***: Due to Some broken links and changes, the server is not running with the frontend. You can run and test each Server feature in the Postman as it is fully functional.
