@@ -4,9 +4,6 @@ import _ from "lodash";
 import axios from "axios";
 import otpGenerator from "otp-generator";
 
-import jwt from "jsonwebtoken";
-import { StatusCodes } from "http-status-codes";
-
 import User from "../models/userSchema.js";
 import Otp from "../models/otpModel.js";
 
@@ -28,14 +25,14 @@ export const signUp = async (req, res) => {
   console.log(number);
   console.log(OTP);
 
-  const accountSid = "ACa0a92d0b2dfd8f635ed2a87abecc035d"; // Your Account SID from www.twilio.com/console
-  const authToken = "b313147e29b62b49d9a33d74869ae332"; // Your Auth Token from www.twilio.com/console
+  const accountSid = process.env.ACCOUNT_SID; // Your Account SID from www.twilio.com/console
+  const authToken = process.env.AUTH_TOKEN; // Your Auth Token from www.twilio.com/console
   const client = new twilio(accountSid, authToken);
   client.messages
     .create({
       body: `Your verification OTP is : ${OTP}`,
       to: `+91${number}`, // Text this number
-      from: "+16205221093", // From a valid Twilio number
+      from: `${process.env.PHONE_NUMBER}`, // From a valid Twilio number
     })
     .then((message) => console.log(message.sid));
 
@@ -65,14 +62,14 @@ export const login = async (req, res) => {
 
   console.log(OTP);
 
-  const accountSid = "ACa0a92d0b2dfd8f635ed2a87abecc035d"; // Your Account SID from www.twilio.com/console
-  const authToken = "b313147e29b62b49d9a33d74869ae332"; // Your Auth Token from www.twilio.com/console
+  const accountSid = process.env.ACCOUNT_SID; // Your Account SID from www.twilio.com/console
+  const authToken = process.env.AUTH_TOKEN; // Your Auth Token from www.twilio.com/console
   const client = new twilio(accountSid, authToken);
   client.messages
     .create({
       body: `Your verification OTP is : ${OTP}`,
       to: `+91${number}`, // Text this number
-      from: "+16205221093", // From a valid Twilio number
+      from: `${process.env.PHONE_NUMBER}`, // From a valid Twilio number
     })
     .then((message) => console.log(message.sid));
 
@@ -97,11 +94,11 @@ export const verifyOtp = async (req, res) => {
   const rightOtpFound = otpHolder[otpHolder.length - 1];
   const validUser = await bcrypt.compare(req.body.otp, rightOtpFound.otp);
 
-  console.log(req.body.otp);
-  console.log(typeof(rightOtpFound.number));
-  console.log(typeof(req.body.number))
-  console.log(rightOtpFound.number);
-  console.log(req.body.number);
+  // console.log(req.body.otp);
+  // console.log(typeof(rightOtpFound.number));
+  // console.log(typeof(req.body.number))
+  // console.log(rightOtpFound.number);
+  // console.log(req.body.number);
 
   if (
     rightOtpFound.number === req.body.number && 

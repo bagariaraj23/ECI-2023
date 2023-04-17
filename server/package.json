@@ -25,6 +25,7 @@
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22",
     "otp-generator": "^4.0.1",
+    "qrcode": "^1.5.1",
     "sms-gateway-nodejs": "^0.1.0",
     "twilio": "^4.10.0"
   }

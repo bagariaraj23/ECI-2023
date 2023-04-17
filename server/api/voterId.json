@@ -1,0 +1,162 @@
+[
+  {
+    "voterID": "MGY5833504",
+    "fullName": "Kunal Kabra",
+    "dob": "Jun 4, 2001 12:31 AM",
+    "address": "Ranchi, Jharkhand, India",
+    "phoneNo": "9709015162",
+    "constituencyNo": "47"
+  },
+  {
+    "voterID": "ABC123420",
+    "fullName": "Raj Kumar",
+    "dob": "Aug 11, 2001 12:31 AM",
+    "address": "Buxar, Bihar, India",
+    "phoneNo": "7700886900",
+    "constituencyNo": "48"
+  },
+  {
+    "voterID": "ABC123421",
+    "fullName": "Bhoogarv Maheshwary",
+    "dob": "Feb 18, 2001 12:31 AM",
+    "address": "Udaipur, Rajasthan, India",
+    "phoneNo": "9876543210",
+    "constituencyNo": "49"
+  },
+  {
+    "voterID": "ABC123422",
+    "fullName": "Riya Bagaria",
+    "dob": "Nov 16, 2002 12:31 AM",
+    "address": "Kolkata, West Bengal, India",
+    "phoneNo": "7903917338",
+    "constituencyNo": "50"
+  },
+  {
+    "voterID": "ABC123423",
+    "fullName": "Shreya",
+    "dob": "Sept 15, 2001 12:31 AM",
+    "address": "Hazaribagh, Jharkhand, India",
+    "phoneNo": "7488828955",
+    "constituencyNo": "51"
+  },
+  {
+    "voterID": "ABC123424",
+    "fullName": "Raj Bagaria",
+    "dob": "May 23, 2001 12:31 AM",
+    "address": "Giridih, Jharkhand, India",
+    "phoneNo": "9955441165",
+    "constituencyNo": "52"
+  },
+  {
+    "voterID": "ABC123425",
+    "fullName": "Shreya Narayan",
+    "dob": "Dec 19, 2001 12:31 AM",
+    "address": "Jamshedpur, Jharkhand, India",
+    "phoneNo": "6203452419",
+    "constituencyNo": "53"
+  },
+  {
+    "voterID": "ABC123426",
+    "fullName": "Dhruv Vashishtha",
+    "dob": "Feb 24, 2003 12:31 AM",
+    "address": "Kota, Rajasthan, India",
+    "phoneNo": "9876543218",
+    "constituencyNo": "54"
+  },
+  {
+    "voterID": "ABC123427",
+    "fullName": "Raghav Kashyap",
+    "dob": "June 26, 2001 12:31 AM",
+    "address": "Lucknow, Uttar Pradesh, India",
+    "phoneNo": "9876543219",
+    "constituencyNo": "55"
+  },
+  {
+    "voterID": "ABC123428",
+    "fullName": "Bristi Priya",
+    "dob": "Feb 6, 2001 12:31 AM",
+    "address": "Ranchi, Jharkhand, India",
+    "phoneNo": "9876543220",
+    "constituencyNo": "47"
+  },
+  {
+    "voterID": "MGY5833529",
+    "fullName": "Kumar Harsh",
+    "dob": "Nov 19, 2001 12:31 AM",
+    "address": "Patna, Bihar, India",
+    "phoneNo": "9876543199",
+    "constituencyNo": "57"
+  },
+  {
+    "voterID": "ABC1234230",
+    "fullName": "Aniket Kumar",
+    "dob": "April 11, 2001 12:31 AM",
+    "address": "Patna, Bihar, India",
+    "phoneNo": "9876543198",
+    "constituencyNo": "57"
+  },
+  {
+    "voterID": "ABC1234231",
+    "fullName": "Arnav Singh",
+    "dob": "Dec 31, 2001 12:31 AM",
+    "address": "Darbhanga, Bihar, India",
+    "phoneNo": "9876543197",
+    "constituencyNo": "59"
+  },
+  {
+    "voterID": "ABC1234232",
+    "fullName": "Himanshu Singh",
+    "dob": "Sept 26, 2002 12:31 AM",
+    "address": "Delhi, India",
+    "phoneNo": "9876543196",
+    "constituencyNo": "60"
+  },
+  {
+    "voterID": "ABC1234233",
+    "fullName": "Rishabh Jain",
+    "dob": "April 4, 2001 12:31 AM",
+    "address": "Surat, Gujarat, India",
+    "phoneNo": "9876543195",
+    "constituencyNo": "61"
+  },
+  {
+    "voterID": "ABC1234234",
+    "fullName": "Sonali",
+    "dob": "April 7, 2001 12:31 AM",
+    "address": "Ranchi, Jharkhand, India",
+    "phoneNo": "9876543194",
+    "constituencyNo": "47"
+  },
+  {
+    "voterID": "ABC1234235",
+    "fullName": "Vyshu D Patil",
+    "dob": "Sept 13, 2001 12:31 AM",
+    "address": "Hyderabad, Telangana, India",
+    "phoneNo": "9876543193",
+    "constituencyNo": "63"
+  },
+  {
+    "voterID": "ABC1234236",
+    "fullName": "Shreeja Singh",
+    "dob": "Nov 9, 2003 12:31 AM",
+    "address": "Jamshedpur, Jharkhand, India",
+    "phoneNo": "9876543192",
+    "constituencyNo": "53"
+  },
+  {
+    "voterID": "ABC1234237",
+    "fullName": "Ayush Saxena",
+    "dob": "Mar 9, 2001 12:31 AM",
+    "address": "Jhansi, Uttar Pradesh, India",
+    "phoneNo": "9876543191",
+    "constituencyNo": "65"
+  },
+  {
+    "voterID": "ABC1234238",
+    "fullName": "Smriti Verma",
+    "dob": "Jan 22, 2001 12:31 AM",
+    "address": "Bhopal, Madhya Pradesh, India",
+    "phoneNo": "9876543190",
+    "constituencyNo": "66"
+  }
+]
